@@ -91,4 +91,47 @@ table td img {
 .aprovado {
     background-color: #009432;
     
+} 
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+
+    body {
+        padding-top: 50px;
+    }
+
+    header {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    form {
+        display: block;
+    }
+
+    form input, button {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    body {
+        padding-top: 50px;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    form {
+        max-width: 100%;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
